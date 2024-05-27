@@ -7,14 +7,14 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-const ButtonLogin = ({ setOpenLogin }) => {
+const ButtonSignUp = ({ setOpenSignUp }) => {
   const classes = useStyles();
 
   return (
-    <Button onClick={() => setOpenLogin(true)} className={classes.buttonLogin}>
-      Войти
+    <Button onClick={() => setOpenSignUp(true)} className={classes.buttonLogin}>
+      Зарегистрироваться
     </Button>
   );
 };
 
-export default ButtonLogin;
+export default ButtonSignUp;

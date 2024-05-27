@@ -4,6 +4,7 @@ const useStyles = makeStyles((theme) => ({
   nameSnackbar: {
     textAlign: "center",
     color: "#ffffff",
+    zIndex: 99,
   },
 }));
 
@@ -26,7 +27,7 @@ const Title = () => {
         anchorOrigin={{ vertical, horizontal }}
         key={vertical + horizontal}
       >
-        <h2 className="spanName">workshop12</h2>
+        <h2 className="spanName">yoMetal.ru</h2>
       </Snackbar>
     </div>
   );
