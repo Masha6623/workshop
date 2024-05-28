@@ -1,6 +1,6 @@
 import "./App.css";
 import Main from "./components/pages/main/Main";
-import Title from "./components/pages/main/Title";
+import Title from "./components/pages/Title";
 import { SnackbarProvider, useSnackbar } from "notistack";
 import OnlineOrder from "./components/UI/modal/order/OnlineOrder";
 import { useEffect, useState } from "react";
